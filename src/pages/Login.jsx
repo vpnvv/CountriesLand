@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { FaGoogle, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import '../styles/login.css';
+import loginImage from "../assets/images/login.svg"
 
 const Login = () => {
   const navigate = useNavigate();
@@ -107,12 +108,11 @@ const Login = () => {
       
           <Col md={6} lg={6} xl={6} className="d-none d-md-flex align-items-center justify-content-center image-section">
             <div className="image-content">
-                <img
-                    src={`${process.env.PUBLIC_URL}/images/login.svg`}
-                    alt="loginImage"
-                    className="img-fluid"
-                />
-
+              <img
+                src={loginImage}
+                alt="loginImage"
+                className="img-fluid"
+              />
             </div>
           </Col>
         </Row>
