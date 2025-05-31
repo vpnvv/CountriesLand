@@ -1,0 +1,34 @@
+{
+  "name": "countiresland",
+  "homepage": "https://vpnvv/github.io/CountriesLand",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.9.0",
+    "bootstrap": "^5.3.6",
+    "bootstrap-icons": "^1.13.1",
+    "react-bootstrap": "^2.10.10",
+    "react-hook-form": "^7.56.4",
+    "react-icons": "^5.5.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-paginate": "^8.3.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.6.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.8"
+  }
+}
