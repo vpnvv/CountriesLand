@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { FaGoogle, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import '../styles/login.css';
-import loginImage from "../../public/images/login.svg"
+import loginImage from "../assets/images/login.svg"
 
 const Login = () => {
   const navigate = useNavigate();
