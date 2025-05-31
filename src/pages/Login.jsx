@@ -108,11 +108,12 @@ const Login = () => {
       
           <Col md={6} lg={6} xl={6} className="d-none d-md-flex align-items-center justify-content-center image-section">
             <div className="image-content">
-              <img
-                src={loginImage}
-                alt="loginImage"
-                className="img-fluid"
-              />
+                <img
+                    src={`${process.env.PUBLIC_URL}/images/login.svg`}
+                    alt="loginImage"
+                    className="img-fluid"
+                />
+
             </div>
           </Col>
         </Row>
